@@ -1,0 +1,100 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  background-color: #8fc1e3;
+}
+.nav h1 {
+  margin: 10px;
+  padding-bottom: 20px;
+  border-bottom: 1px solid #6b9cbd;
+}
+.address {
+  margin: 10px 30px;
+  display: flex;
+  background-color: #f7f7f7;
+}
+.address h3 {
+  margin-bottom: 10px;
+}
+.address address {
+  font-style: normal;
+  max-width: 400px;
+  padding: 10px;
+}
+.details {
+  margin-top: 40px;
+}
+.symbol i {
+  position: relative;
+  left: 430px;
+  top: 30px;
+}
+.form-container {
+  height: 410px;
+  padding: 10px;
+  margin: 30px;
+  display: flex;
+  background-color: #f7f7f7;
+}
+#contactForm {
+  width: 100%;
+}
+.name {
+  padding: 10px 20px;
+}
+#name {
+  width: 45%;
+  height: 38px;
+  border: 2px solid #eeeeee;
+  border-radius: 5px;
+}
+#company {
+  width: 45%;
+  height: 38px;
+  border: 2px solid #eeeeee;
+  border-radius: 5px;
+  margin-left: 10px;
+}
+.email-id {
+  padding: 10px 20px;
+}
+#email {
+  width: 45%;
+  height: 38px;
+  border: 2px solid #eeeeee;
+  border-radius: 5px;
+}
+#mobile {
+  width: 45%;
+  height: 38px;
+  border: 2px solid #eeeeee;
+  border-radius: 5px;
+  margin-left: 10px;
+}
+.massage-1 {
+  padding: 10px 20px;
+}
+#message {
+  width: 92%;
+  height: 125px;
+  border: 2px solid #eeeeee;
+  border-radius: 5px;
+}
+.button button {
+  background-color: #e70404;
+  color: #fff;
+  width: 65px;
+  height: 35px;
+  border: none;
+  border-radius: 10px;
+  margin: 10px 20px;
+}
+.map {
+  padding: 15px;
+}
+.footer i {
+  margin: 5px 5px;
+}
